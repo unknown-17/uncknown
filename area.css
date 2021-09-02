@@ -1,0 +1,105 @@
+body{
+	background-color:black;
+}
+
+.title{
+	font-size:100px;
+	text-align:center;
+	text-decoration:underlin;
+	color:red;
+}
+
+h2{
+	font-size:90px;
+	text-align:center;
+	color:white;
+}
+
+.cube{
+	width:600px;
+	heigth:600px;
+	margin-left:180px;
+}
+
+.r-cube{
+	width:600px;
+	heigth:600px;
+	margin-left:180px;
+}
+
+.pyramid{
+	width:600px;
+	heigth:500px;
+	margin-left:180px;
+}
+
+.sphere{
+	width:600px;
+	heigth:500px;
+	margin-left:180px;
+}
+
+.cylinder{
+	width:800px;
+	heigth:800px;
+	margin-left:100px;
+}
+
+.cone{
+	width:450px;
+	heigth:400px;
+	margin-left:260px;
+}
+
+.tet{
+	margin-left:150px;
+}
+
+a{
+	font-size:50px;
+	margin-left:30%;
+	color:blue;
+	text-decoration:none;
+}
+
+input{
+ font-size:60px;
+ border:solid gold;
+ background-color:white;
+ margin-left:60px;
+ color:red;
+}
+
+button{
+ font-size:60px;
+ background-color:aqua;
+ border-radius:10px;
+ border:2px solid black;
+ margin-left:39%;
+}
+
+.get{
+	font-size:60px;
+	color:blue;
+}
+
+h3{
+	text-align:center;
+	color:white;
+}
+
+.co{
+	margin-left:80px;
+	font-size:100px;
+	color:white;
+}
+
+.bo{
+	border:3px solid gold;
+	border-radius:80px;
+	background-color:black;
+}
+
+.area{
+    color:gray;
+}

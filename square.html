@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Square</title>
+		<link rel="stylesheet" type="text/css" href="area.css">
+		<script src="met.js"></script>
+	</head>
+	<body>
+		
+		<div class="bo">
+		<h1 class="title"> SQUARE </h1>
+		<br>
+		<br>
+		
+		<img class="cube" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Red_square.svg/1024px-Red_square.svg.png" alt=""><br>
+			<br>
+			<br>
+			<br>
+			</div>
+			
+	   <div class="bo">
+		<h1 class="co">Area :-</h1><br>
+			
+			 <form>
+			  <div class="get">
+      <label><h3>Length</h3> <input type="number" name="r" id="r" required=""> </label><br>
+      </div>
+      <br>
+      <br>
+      <br>
+      
+      <button type="button" id="submit"> Submit </button>
+   </form>
+    <br>
+    <br>
+    <br>
+    <br>
+   </div>
+   <div class="bo">
+   
+   <h1 class="co">Circunference :-</h1><br>
+			
+			 <form>
+			  <div class="get">
+      <label><h3>Length</h3> <input type="number" name="v" id="v" required=""> </label><br>
+      </div>
+      <br>
+      <br>
+      <br>
+      
+      <button type="button" id="submi"> Submit </button>
+      <br>
+      <br>
+      <br>
+   </form>
+   </div>
+   
+   
+   <script>
+      document.getElementById("submit").addEventListener("click", function() {
+         var r = document.getElementById("r").value;
+            alert(r*r);    
+          });
+          
+    document.getElementById("submi").addEventListener("click", function() {
+         var v = document.getElementById("v").value;
+            alert(4*v);    
+          });
+   
+   </script>
+			
+	</body>
+</html>

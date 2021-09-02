@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tetrahedron</title>
+		<link rel="stylesheet" type="text/css" href="area.css">
+		<script src="met.js"></script>
+	</head>
+	<body>
+		
+		<div class="bo">
+		<h1 class="title">TETRAHEDRON</h1>
+		<br>
+		<br>
+		
+		<img class="tet" src="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/6a14e948a0aaac897ca58596aef50efc/large.png" alt=""><br>
+			<br>
+			<br>
+			<br>
+			</div>
+			
+	   <div class="bo">
+		<h1 class="co">Volume :-</h1><br>
+			
+			 <form>
+			  <div class="get">
+      <label><h3>Edge</h3> <input type="number" name="r" id="r" required=""> </label><br>
+      </div>
+      <br>
+      <br>
+      <br>
+      
+      <button type="button" id="submit"> Submit </button>
+   </form>
+    <br>
+    <br>
+    <br>
+    <br>
+   </div>
+   <div class="bo">
+   
+   <h1 class="co">Surface :-</h1><br>
+			
+			 <form>
+			  <div class="get">
+      <label><h3>Edge</h3> <input type="number" name="v" id="v" required=""> </label><br>
+      </div>
+      <br>
+      <br>
+      <br>
+      
+      <button type="button" id="submi"> Submit </button>
+      <br>
+      <br>
+      <br>
+   </form>
+   </div>
+   
+   
+   <script>
+      document.getElementById("submit").addEventListener("click", function() {
+         var r = document.getElementById("r").value;
+            alert(r*r*r/12*1.41421356);    
+          });
+          
+    document.getElementById("submi").addEventListener("click", function() {
+         var v = document.getElementById("v").value;
+            alert(v*v*1.73205081);    
+          });
+   
+   </script>
+			
+	</body>
+</html>

@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+
+h1{
+    font-size:120px;
+    color:red;
+    text-align:center;
+}
+
+h2{
+    margin-top:40px;
+    font-size:230px;
+    text-align:center;
+    background-color:;
+    color:gold;
+    border:5px solid gold;
+    border-radius:30px;
+    text-decoration:underline;
+}
+
+img{
+    width:60%;
+    height:60%;
+    margin-left:200px;
+    border:5px solid lightgreen;
+}
+
+a{
+    font size:180px;
+    text-align:center;
+    font-family:cursive;
+    text-decoration:none;
+    color:cyan;
+}
+
+h3{
+    text-align:center;
+    font-size:80px;
+}
+
+ab{
+    border:5px solid gray;
+    border-radius:30px;
+}

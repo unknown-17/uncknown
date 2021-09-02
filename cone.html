@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cone</title>
+		<link rel="stylesheet" type="text/css" href="area.css">
+		<script src="met.js"></script>
+	</head>
+	<body>
+		
+		<div class="bo">
+		<h1 class="title">CONE</h1>
+		<br>
+		<br>
+		
+		<img class="cone" src="https://study.com/cimages/multimages/16/cone-shape-clipart-15498909715431799243.jpg" alt=""><br>
+			<br>
+			<br>
+			<br>
+			</div>
+			
+	   <div class="bo">
+		<h1 class="co">Volume :-</h1><br>
+			
+			 <form>
+			  <div class="get">
+      <label><h3>Radius</h3> <input type="number" name="r" id="r" required=""> </label><br>
+      <label><h3>Height</h3> <input type="number" name="h" id="h" required=""> </label><br>
+      </div>
+      <br>
+      <br>
+      <br>
+      
+      <button type="button" id="submit"> Submit </button>
+   </form>
+    <br>
+    <br>
+    <br>
+    <br>
+   </div>
+   <div class="bo">
+   
+   <h1 class="co">Surface :-</h1><br>
+			
+			 <form>
+			  <div class="get">
+      <label><h3>Radius</h3> <input type="number" name="v" id="v" required=""> </label><br>
+      <label><h3>Inclined height</h3> <input type="number" name="i" id="i" required=""> </label><br>
+      </div>
+      <br>
+      <br>
+      <br>
+      
+      <button type="button" id="submi"> Submit </button>
+      <br>
+      <br>
+      <br>
+   </form>
+   </div>
+   
+   
+   <script>
+      document.getElementById("submit").addEventListener("click", function() {
+         var r = document.getElementById("r").value;
+         var h = document.getElementById("h").value;
+            alert((r*r*3.14159265*h)/3);    
+          });
+          
+    document.getElementById("submi").addEventListener("click", function() {
+         var v = document.getElementById("v").value;
+         var i = document.getElementById("i").value;
+            alert(3.14159265*v*v+3.14159265*v*i);    
+          });
+   
+   </script>
+			
+	</body>
+</html>
